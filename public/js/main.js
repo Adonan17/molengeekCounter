@@ -1,6 +1,6 @@
-let counting = setInterval(update);
+let counting = setInterval(updateNumber);
 let count = 0;
-function update() {
+function updateNumber() {
     let number = document.querySelector('#number')
     number.innerText = ++count
     if (count == 1000) {
